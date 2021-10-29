@@ -20,7 +20,7 @@ body{
     box-shadow: 1px 2px 15px 0px #000000;
     border-radius: 15px;
     display: grid;
-    grid-template-columns: 10% 60% 30% ;
+    grid-template-columns: 10% 65% 25% ;
     grid-template-rows: 13% 35% 52%;
     grid-template-areas: 
     "menu-grid dash-grid card-account"
@@ -66,7 +66,7 @@ img{
 
 .icons-grid{
     grid-area: icons-grid;
-    
+        
 }
 
 .card-grid{
@@ -76,12 +76,17 @@ img{
 
 .card-account{
     grid-area: card-account;
+    border-radius: 15px;
 }
 
 h2{
     color: #858585;
     display: flex;
     margin: 25px;
+}
+
+.state > p{
+    color: #858585;
 }
 
 .icons-grid{
@@ -93,13 +98,18 @@ h2{
 
 .lendig{
     background-color: #FBFBFB;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 1px solid rgb(206, 196, 196);
     margin-top: 60px;
     border-radius: 10px;
     -webkit-box-shadow: 1px 2px 15px 0px #999797; 
     box-shadow: 1px 2px 15px 0px #999797;
+}
+
+.lendig > img{
+    width: 70px;
+    height: 70px;
 }
 
 p{
